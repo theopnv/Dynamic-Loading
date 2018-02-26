@@ -7,12 +7,12 @@
 using namespace std;
 
 #ifdef WIN32
-static const std::string bespinLibPath = "BespinLib.dll";
-static const std::string tatooineLibPath = "TatooineLib.dll";
+static const std::string bespinLibPath = "Bespin.dll";
+static const std::string tatooineLibPath = "Tatooine.dll";
 #endif
 #ifdef __linux__
-static const std::string bespinLibPath = "lib_bespin.so";
-static const std::string tatooineLibPath = "lib_tatooine.so";
+static const std::string bespinLibPath = "./libBespin.so";
+static const std::string tatooineLibPath = "./libTatooine.so";
 #endif
 
 /*
