@@ -1,6 +1,6 @@
 #include "Tatooine.h"
 
-#ifdef __linux__
+#if defined(__linux__) || defined(__APPLE__)
 extern "C"
 {
 	Tatooine *allocator()

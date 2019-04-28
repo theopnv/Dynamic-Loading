@@ -29,7 +29,7 @@ namespace dlloader
 
 		~DLLoader() = default;
 
-		void DLOpenLib()
+		void DLOpenLib() override
 		{
 			if (!(_handle = dlopen(_pathToLib.c_str(), RTLD_NOW | RTLD_LAZY))) {
 				std::cerr << dlerror() << std::endl;

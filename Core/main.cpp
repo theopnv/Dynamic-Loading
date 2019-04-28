@@ -14,6 +14,10 @@ static const std::string tatooineLibPath = "Tatooine.dll";
 static const std::string bespinLibPath = "./libBespin.so";
 static const std::string tatooineLibPath = "./libTatooine.so";
 #endif
+#ifdef __APPLE__
+static const std::string bespinLibPath = "./libBespin.dylib";
+static const std::string tatooineLibPath = "./libTatooine.dylib";
+#endif
 
 /*
 ** Using the smart pointer directly in an inner function because
