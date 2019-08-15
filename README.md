@@ -1,4 +1,4 @@
-This is the github repository of this tutorial about Dynamic loading in modern C++ : https://theopnv.com/dynamic-loading/
+This is the github repository of this tutorial about Dynamic loading in modern C++ : https://theopnv.com/blog/posts/loading-of-a-cpp-class-from-a-shared-library
 
 __Execution__
 
