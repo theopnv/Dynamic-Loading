@@ -1,4 +1,4 @@
-This is the github repository of this tutorial about Dynamic loading in modern C++ : https://theopnv.com/blog/posts/loading-of-a-cpp-class-from-a-shared-library
+This is the github repository of this tutorial about Dynamic loading in modern C++ : https://www.notion.so/Loading-of-a-C-class-from-a-shared-library-Modern-C-fdbb98a8fb1c4a1987e49396b0c3d9d3
 
 __Execution__
 
